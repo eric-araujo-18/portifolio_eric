@@ -255,7 +255,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
+          {/* <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
             <div className="flex items-center justify-between">
               <span className="font-label-caps text-label-caps text-tertiary uppercase font-bold">
                 Engenharia
@@ -275,7 +275,7 @@ export function HeroSection() {
                 Linguagem C, memória e estruturas de dados
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
             <div className="flex items-center justify-between">

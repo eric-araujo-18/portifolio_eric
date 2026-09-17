@@ -42,26 +42,26 @@ export function SkillsSection() {
             <ul className="space-y-space-sm font-code-mono text-code-mono text-on-surface">
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>C# / .NET Core</span>
-                <span className="text-primary text-label-caps">Avançado</span>
-              </li>
+                {/* <span className="text-primary text-label-caps">Avançado</span> */}
+              </li> 
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Node.js & Express</span>
-                <span className="text-primary text-label-caps">Robusto</span>
+                {/* <span className="text-primary text-label-caps">Avançado</span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Python</span>
-                <span className="text-secondary text-label-caps">
+                {/* <span className="text-secondary text-label-caps">
                   Scripts/Dados
-                </span>
+                </span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Linguagem C</span>
-                <span className="text-tertiary text-label-caps">
+                {/* <span className="text-tertiary text-label-caps">
                   Memória/Buffer
-                </span>
+                </span> */}
               </li>
             </ul>
           </div>
@@ -90,24 +90,24 @@ export function SkillsSection() {
             <ul className="space-y-space-sm font-code-mono text-code-mono text-on-surface">
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>TypeScript</span>
-                <span className="text-secondary text-label-caps">Foco</span>
+                {/* <span className="text-secondary text-label-caps">Foco</span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>JavaScript (ES6+)</span>
-                <span className="text-secondary text-label-caps">Nativo</span>
+                {/* <span className="text-secondary text-label-caps">Nativo</span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>React & Componentes</span>
-                <span className="text-primary text-label-caps">Moderno</span>
+                {/* <span className="text-primary text-label-caps">Moderno</span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Tailwind CSS</span>
-                <span className="text-secondary text-label-caps">
+                {/* <span className="text-secondary text-label-caps">
                   Tokens/Dark
-                </span>
+                </span> */}
               </li>
             </ul>
           </div>
@@ -124,7 +124,7 @@ export function SkillsSection() {
               </span>
 
               <h3 className="font-headline-sm text-headline-sm text-on-surface">
-                Dados & Teoria
+                Dados
               </h3>
             </div>
 
@@ -136,30 +136,16 @@ export function SkillsSection() {
             <ul className="space-y-space-sm font-code-mono text-code-mono text-on-surface">
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>PostgreSQL & MySQL</span>
-                <span className="text-tertiary text-label-caps">
+                {/* <span className="text-tertiary text-label-caps">
                   Queries/DDL
-                </span>
+                </span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Modelagem Relacional</span>
-                <span className="text-tertiary text-label-caps">
+                {/* <span className="text-tertiary text-label-caps">
                   Normalização
-                </span>
-              </li>
-
-              <li className="flex items-center justify-between p-2 rounded bg-surface-container">
-                <span>Teoria dos Grafos</span>
-                <span className="text-primary text-label-caps">
-                  Dijkstra/Busca
-                </span>
-              </li>
-
-              <li className="flex items-center justify-between p-2 rounded bg-surface-container">
-                <span>Filas, Pilhas & Árvores</span>
-                <span className="text-secondary text-label-caps">
-                  Otimizado
-                </span>
+                </span> */}
               </li>
             </ul>
           </div>
@@ -188,30 +174,36 @@ export function SkillsSection() {
             <ul className="space-y-space-sm font-code-mono text-code-mono text-on-surface">
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Git & GitHub Actions</span>
-                <span className="text-primary text-label-caps">
+                {/* <span className="text-primary text-label-caps">
                   Colaboração
-                </span>
+                </span> */}
               </li>
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Docker & Containers</span>
-                <span className="text-secondary text-label-caps">
+                {/* <span className="text-secondary text-label-caps">
                   Isolamento
-                </span>
+                </span> */}
               </li>
 
-              <li className="flex items-center justify-between p-2 rounded bg-surface-container">
+              {/* <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>Linux & Bash</span>
-                <span className="text-on-surface-variant text-label-caps">
+                {/* <span className="text-on-surface-variant text-label-caps">
                   CLI Fluente
                 </span>
-              </li>
+              </li> */}
 
               <li className="flex items-center justify-between p-2 rounded bg-surface-container">
                 <span>VS Code & Insomnia</span>
-                <span className="text-primary text-label-caps">
+                {/* <span className="text-primary text-label-caps">
                   Produtividade
-                </span>
+                </span> */}
+              </li>
+              <li className="flex items-center justify-between p-2 rounded bg-surface-container">
+                <span>AzureDevOps</span>
+                {/* <span className="text-primary text-label-caps">
+                  Produtividade
+                </span> */}
               </li>
             </ul>
           </div>
