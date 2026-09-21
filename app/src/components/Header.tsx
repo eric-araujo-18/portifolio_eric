@@ -96,7 +96,7 @@ export function Header() {
             <img
               alt="Eric Araújo Profile"
               className="w-8 h-8 rounded-full object-cover"
-              src="https://media.licdn.com/dms/image/v2/D4E03AQHsfW5qMsxu3g/profile-displayphoto-scale_100_100/B4EZxfz9J5GwAc-/0/1771133983037?e=1791417600&v=beta&t=jJ03xirq9f7B_1jTheN2eO-ARu669BiISlUfc-2SmPY"
+              src="https://media.licdn.com/dms/image/v2/D4E03AQHa17g9g8aW7A/profile-displayphoto-scale_200_200/B4EaCtZVhLG4Ag-/0/1789615498910?e=1791417600&v=beta&t=qWfa-ovQ1GTThjeKlyBVUfGOfcX0s_dKcY14hj7mjck"
             />
           </div>
         </div>

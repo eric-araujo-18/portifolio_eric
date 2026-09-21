@@ -55,5 +55,27 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    title: "Vitrio",
+    description:
+      "Sistema de gerenciamento de inventário e controle de estoque para empresas do setor de varejo. Funcionalidades de relatórios, análise de desempenho e integração com sistemas de e-commerce.",
+    github: "https://github.com/eric-araujo-18/Vitrio",
+    color: "tertiary",
+
+    technologies: [
+      {
+        name: "C# .NET",
+        color: "primary",
+      },
+      {
+        name: "Next.js",
+        color: "secondary",
+      },
+      {
+        name: "PostgreSQL",
+        color: "default",
+      },
+    ],
+  }
 
 ];

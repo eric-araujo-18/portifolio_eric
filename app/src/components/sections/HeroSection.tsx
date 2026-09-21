@@ -211,7 +211,7 @@ export function HeroSection() {
 
         {/* Métricas */}
         <div className="mt-space-2xl grid grid-cols-2 md:grid-cols-4 gap-space-md">
-          <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
+          {/* <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
             <div className="flex items-center justify-between">
               <span className="font-label-caps text-label-caps text-primary uppercase font-bold">
                 GitHub Repos
@@ -231,7 +231,7 @@ export function HeroSection() {
                 Repositórios públicos com código versionado
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
             <div className="flex items-center justify-between">
