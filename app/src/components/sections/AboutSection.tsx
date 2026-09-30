@@ -57,7 +57,7 @@ export function AboutSection() {
             </p>
           </div>
 
-          {/* Gráfico de complexidade */}
+          {/* Gráfico de complexidade
           <div className="mt-space-xl p-space-md rounded-xl bg-surface-container-low shadow-sm">
             <div className="flex items-center justify-between mb-space-sm">
               <span className="font-code-mono text-label-caps text-on-surface-variant">
@@ -92,7 +92,7 @@ export function AboutSection() {
                 fillOpacity="0.06"
               />
             </svg>
-          </div>
+          </div> */}
         </div>
 
         {/* Card lateral */}
