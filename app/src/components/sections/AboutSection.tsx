@@ -20,40 +20,37 @@ export function AboutSection() {
           </div>
 
           <h2 className="font-headline-md text-headline-md text-on-surface">
-            Resolvendo problemas reais com disciplina matemática e arquitetura
-            sólida.
+            Encontrando falhas antes que elas cheguem ao usuário.
           </h2>
 
           <div className="mt-space-lg space-y-space-md font-body-base text-body-base text-on-surface-variant">
             <p>
-              Minha trajetória como desenvolvedor é guiada pela fascinação em
-              entender como os sistemas funcionam sob o capô. Acredito que um
-              software excepcional não apenas atende às especificações de
-              negócio, mas também é resiliente, extensível e eficiente em
-              recursos computacionais.
+              Minha trajetória em tecnologia é guiada pela curiosidade em
+              entender como os sistemas funcionam e, principalmente, como eles
+              podem falhar. Acredito que um software excepcional não apenas
+              atende às especificações de negócio, mas também é confiável,
+              consistente e seguro para quem o utiliza.
             </p>
 
             <p>
-              Com uma base rigorosa em{" "}
-              <strong className="text-on-surface">
-                Ciência e Engenharia da Computação
-              </strong>
-              , me especializei no desenvolvimento de software de ponta a ponta.
-              Atuo desde a modelagem de entidades complexas e arquitetura de
-              microsserviços em{" "}
-              <strong className="text-primary">
-                TypeScript & C# (.NET)
-              </strong>{" "}
-              até algoritmos analíticos em{" "}
-              <strong className="text-secondary">Python</strong> e alocação de
-              memória de alto desempenho em{" "}
-              <strong className="text-tertiary">Linguagem C</strong>.
+              Com formação em{" "}
+              <strong className="text-on-surface">Ciência da Computação</strong>,
+              atuei como Analista de Qualidade no setor bancário, testando
+              sistemas web, APIs e microsserviços. Combino testes funcionais e
+              de regressão com automação end-to-end em{" "}
+              <strong className="text-primary">Playwright</strong> e validação
+              de dados em{" "}
+              <strong className="text-secondary">SQL Server</strong>. Minha base
+              em desenvolvimento com{" "}
+              <strong className="text-tertiary">TypeScript & C#</strong> me
+              ajuda a ler o código, investigar a causa raiz dos problemas e
+              falar a mesma língua do time de desenvolvimento.
             </p>
 
             <p>
-              Minha rotina de desenvolvimento prioriza a clareza arquitetural, a
-              entrega contínua e a colaboração aberta através do ecossistema
-              GitHub.
+              Minha rotina prioriza critérios de aceite claros, reports de bugs
+              bem documentados e colaboração próxima com desenvolvimento e
+              produto.
             </p>
           </div>
 
@@ -102,7 +99,7 @@ export function AboutSection() {
               <img
                 alt="Eric Araújo"
                 className="w-16 h-16 rounded-xl object-cover shadow-sm"
-                src="https://media.licdn.com/dms/image/v2/D4E03AQHa17g9g8aW7A/profile-displayphoto-scale_200_200/B4EaCtZVhLG4Ag-/0/1789615498910?e=1791417600&v=beta&t=qWfa-ovQ1GTThjeKlyBVUfGOfcX0s_dKcY14hj7mjck"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQHa17g9g8aW7A/profile-displayphoto-scale_200_200/B4EaCtZVhLG4Ag-/0/1789615498910?e=1794441600&v=beta&t=Tv9rzViDCGXCvCvUvFsyMwOg9NtfligT2lropHZZco0"
               />
 
               <div>
@@ -142,11 +139,11 @@ export function AboutSection() {
 
                 <div>
                   <span className="font-label-caps text-label-caps text-on-surface-variant block uppercase">
-                    Foco Tecnológico
+                    Foco Profissional
                   </span>
 
                   <span className="font-body-bold text-body-sm text-on-surface">
-                    Full Stack • TypeScript, C# .NET & Engenharia de Dados
+                    Qualidade de Software • Testes Manuais, Automatizados & de API
                   </span>
                 </div>
               </div>
@@ -163,7 +160,7 @@ export function AboutSection() {
                   </span>
 
                   <span className="font-body-bold text-body-sm text-on-surface">
-                    Scrum, Git Flow, CI/CD, Testes e Refatoração
+                    Scrum, Testes de Regressão, Gestão de Bugs & CI/CD
                   </span>
                 </div>
               </div>
@@ -180,7 +177,7 @@ export function AboutSection() {
                   </span>
 
                   <span className="font-body-bold text-body-sm text-on-surface">
-                    Microsserviços, Cloud Computing & Performance Tuning
+                    Testes de Performance, BDD & Testes em Pipelines CI/CD
                   </span>
                 </div>
               </div>

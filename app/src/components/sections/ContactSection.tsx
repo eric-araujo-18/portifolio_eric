@@ -18,9 +18,9 @@ export function ContactSection() {
     const message = formData.get("message");
 
     const subjectLabels: Record<string, string> = {
-      projeto: "Novo Projeto / Contratação",
-      consultoria: "Consultoria Técnica / Arquitetura",
-      networking: "Networking & Tecnologia",
+      vaga: "Oportunidade / Vaga de QA",
+      projeto: "Testes & Qualidade para um Projeto",
+      networking: "Networking & Qualidade de Software",
       outro: "Outro assunto",
     };
 
@@ -69,13 +69,13 @@ ${message}
               </div>
 
               <h2 className="font-headline-md text-headline-md text-on-surface">
-                Vamos Construir Algo Excepcional Juntos?
+                Vamos Elevar a Qualidade do Seu Produto?
               </h2>
 
               <p className="mt-space-md font-body-base text-body-base text-on-surface-variant leading-relaxed">
-                Tem um projeto em mente, uma oportunidade de engenharia ou deseja
-                bater um papo sobre sistemas de alto desempenho? Preencha o
-                formulário e a mensagem será enviada diretamente pelo WhatsApp.
+                Tem uma vaga de QA, um produto que precisa ser testado ou quer
+                bater um papo sobre qualidade de software? Preencha o formulário
+                e a mensagem será enviada diretamente pelo WhatsApp.
               </p>
             </div>
 
@@ -207,18 +207,18 @@ ${message}
                   className="w-full px-space-md py-3 rounded-lg bg-surface-dim text-on-surface font-body-base focus:outline-none focus:ring-2 focus:ring-secondary/40 transition-all"
                   id="subject"
                   name="subject"
-                  defaultValue="projeto"
+                  defaultValue="vaga"
                 >
-                  <option value="projeto">
-                    Novo Projeto / Contratação
+                  <option value="vaga">
+                    Oportunidade / Vaga de QA
                   </option>
 
-                  <option value="consultoria">
-                    Consultoria Técnica / Arquitetura
+                  <option value="projeto">
+                    Testes & Qualidade para um Projeto
                   </option>
 
                   <option value="networking">
-                    Networking & Tecnologia
+                    Networking & Qualidade de Software
                   </option>
 
                   <option value="outro">
@@ -239,7 +239,7 @@ ${message}
                   className="w-full px-space-md py-3 rounded-lg bg-surface-dim text-on-surface font-body-base placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-secondary/40 transition-all resize-none"
                   id="message"
                   name="message"
-                  placeholder="Conte detalhes sobre a demanda, escopo ou ideia..."
+                  placeholder="Conte detalhes sobre a vaga, o produto ou a demanda de testes..."
                   required
                   rows={4}
                 />

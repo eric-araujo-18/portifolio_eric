@@ -5,7 +5,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 const navItems = [
   { id: "sobre-mim", label: "Sobre mim" },
   { id: "projetos", label: "Projetos" },
-  { id: "habilidades-e-stack", label: "Habilidades & Stack" },
+  { id: "habilidades-e-stack", label: "Habilidades & Ferramentas" },
   { id: "experiencia-e-formacao", label: "Experiência & Formação" },
   { id: "contato", label: "Contato" },
 ] as const;
@@ -91,7 +91,7 @@ export function Header() {
               </span>
 
               <span className="font-label-caps text-label-caps text-on-surface-variant leading-none mt-1">
-                Full-Stack // Dev
+                QA // Analista de Qualidade
               </span>
             </div>
           </a>
@@ -103,7 +103,7 @@ export function Header() {
             </span>
 
             <span className="font-label-caps text-label-caps text-on-surface-variant uppercase">
-              Disponível para novos projetos
+              Disponível para vagas de QA
             </span>
           </div>
         </div>
@@ -161,7 +161,7 @@ export function Header() {
             <img
               alt="Eric Araújo Profile"
               className="w-8 h-8 rounded-full object-cover"
-              src="https://media.licdn.com/dms/image/v2/D4E03AQHa17g9g8aW7A/profile-displayphoto-scale_200_200/B4EaCtZVhLG4Ag-/0/1789615498910?e=1791417600&v=beta&t=qWfa-ovQ1GTThjeKlyBVUfGOfcX0s_dKcY14hj7mjck"
+              src="https://media.licdn.com/dms/image/v2/D4E03AQHa17g9g8aW7A/profile-displayphoto-scale_200_200/B4EaCtZVhLG4Ag-/0/1789615498910?e=1794441600&v=beta&t=Tv9rzViDCGXCvCvUvFsyMwOg9NtfligT2lropHZZco0"
             />
           </div>
         </div>

@@ -16,7 +16,7 @@ export function ProjectsSection() {
             </span>
 
             <span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">
-              Repositórios & Código Fonte
+              Prática Técnica & Código Fonte
             </span>
           </div>
 

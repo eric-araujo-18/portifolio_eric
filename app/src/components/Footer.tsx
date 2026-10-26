@@ -26,8 +26,8 @@ export function Footer() {
             </div>
 
             <p className="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left max-w-sm">
-              Engenharia de software de alta performance, arquitetura escalável
-              e interfaces elegantes.
+              Garantia de qualidade, testes automatizados e software confiável
+              do primeiro commit à produção.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export function Footer() {
 
             <a
               className="group flex items-center gap-space-xs font-code-mono text-code-mono text-on-surface-variant hover:text-tertiary transition-colors"
-              href="mailto:contato@ericaraujo.dev"
+              href="mailto:ericalbuquerque8@hotmail.com"
             >
               <span className="material-symbols-outlined text-body-sm">
                 <Mail className="w-5 h-5" />
@@ -90,7 +90,7 @@ export function Footer() {
           </p>
 
           <p className="font-label-caps text-label-caps text-on-surface-variant">
-            Crafted with Obsessive Engineering & Modern Precision
+            Tested with Obsessive Attention to Detail
           </p>
         </div>
       </div>

@@ -19,12 +19,12 @@ type Tech = {
 
 // Cores das marcas, clareadas quando necessário para ter contraste no fundo escuro.
 const fitbankStack: Tech[] = [
-  { name: "C#", icon: TbBrandCSharp, color: "#b77fdc" },
-  { name: ".NET / ASP.NET", icon: SiDotnet, color: "#8b6cef" },
-  { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
-  { name: "SQL Server", icon: DiMsqlServer, color: "#e8514e" },
   { name: "Playwright", icon: FlaskConical, color: "#45ba4b" },
   { name: "AzureDevOps", icon: VscAzureDevops, color: "#0f8ac4" },
+  { name: "SQL Server", icon: DiMsqlServer, color: "#e8514e" },
+  { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
+  { name: "C#", icon: TbBrandCSharp, color: "#b77fdc" },
+  { name: ".NET / ASP.NET", icon: SiDotnet, color: "#8b6cef" },
 ];
 
 function TechStack({ items }: { items: Tech[] }) {
@@ -100,22 +100,26 @@ export function ExperienceSection() {
               </header>
 
               <p className="font-body-base text-body-sm text-on-surface-variant leading-relaxed">
-                Atuei no desenvolvimento e na garantia de qualidade de sistemas
-                web, APIs e microsserviços em produtos do ramo bancário.
+                Atuei na garantia de qualidade de sistemas web, APIs e
+                microsserviços em produtos do ramo bancário.
               </p>
 
               <ul className="mt-space-md space-y-space-sm font-body-base text-body-sm text-on-surface-variant leading-relaxed">
                 <li className="flex gap-space-sm">
                   <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                  Desenvolvimento de procedimentos armazenados (Stored Procedures) no SQL Server.
+                  Execução de testes para garantir a corretude do sistema e das regras de negócio.
                 </li>
                 <li className="flex gap-space-sm">
                   <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                  Testes para garantir a corretude do sistema, com automação usando Playwright.
+                  Automação de testes end-to-end com Playwright.
                 </li>
                 <li className="flex gap-space-sm">
                   <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                  Comunicação com a equipe para resolução de problemas e ajustes.
+                  Validação de dados e desenvolvimento de procedimentos armazenados (Stored Procedures) no SQL Server.
+                </li>
+                <li className="flex gap-space-sm">
+                  <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                  Comunicação com o time de desenvolvimento para reporte, acompanhamento e resolução de bugs.
                 </li>
               </ul>
 
@@ -154,9 +158,9 @@ export function ExperienceSection() {
               </span>
 
               <p className="font-body-base text-body-sm text-on-surface-variant leading-relaxed mt-space-sm">
-                Bacharelado em Ciência da Computação com foco em desenvolvimento
-                de software, banco de dados, inteligência artificial, análise de
-                dados e engenharia de software.
+                Bacharelado em Ciência da Computação com foco em engenharia de
+                software, desenvolvimento de software, banco de dados,
+                inteligência artificial e análise de dados.
               </p>
             </div>
           </article>

@@ -1,4 +1,4 @@
-import { ArrowRight, Contact, Cpu, FolderOpen, Layers, Mail, MemoryStick, Verified } from "lucide-react";
+import { ArrowRight, Contact, Cpu, FolderOpen, MonitorCheck, ShieldCheck } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -18,13 +18,13 @@ export function HeroSection() {
               </span>
 
               <span className="font-label-caps text-label-caps text-primary tracking-wider uppercase">
-                Disponível para novos desafios e projetos
+                Disponível para oportunidades como Analista de QA
               </span>
             </div>
 
             <div className="mt-space-lg">
               <span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest block mb-2 font-semibold">
-                Engenheiro de Software & Full Stack
+                Analista de Qualidade de Software (QA)
               </span>
 
               <h1 className="font-display-lg text-display-lg text-on-surface tracking-tight leading-tight">
@@ -36,15 +36,16 @@ export function HeroSection() {
             </div>
 
             <p className="mt-space-md font-headline-sm text-headline-sm text-on-surface-variant font-normal">
-              Desenvolvedor Full Stack apaixonado por criar soluções robustas,
-              escaláveis e eficientes.
+              Analista de QA focado em garantir que cada entrega chegue ao
+              usuário com qualidade, segurança e confiança.
             </p>
 
             <p className="mt-space-md font-body-base text-body-base text-on-surface-variant max-w-xl">
-              Especialista no desenvolvimento de aplicações modernas,
-              arquitetura de sistemas, modelagem relacional e algoritmos de alto
-              desempenho. Transformando desafios complexos em produtos digitais
-              de impacto com TypeScript, C#, Python e JavaScript.
+              Experiência em testes de sistemas web, APIs e microsserviços no
+              setor bancário: testes funcionais e de regressão, automação
+              end-to-end com Playwright e validação de dados com SQL. Uno a
+              visão de quem desenvolve à mentalidade de quem encontra o erro
+              antes do cliente.
             </p>
 
             {/* CTAs */}
@@ -120,7 +121,7 @@ export function HeroSection() {
                     terminal
                   </span>
 
-                  <span>eric-araujo.config.ts</span>
+                  <span>eric-araujo.spec.ts</span>
                 </div>
 
                 <div className="flex items-center text-on-surface-variant opacity-60">
@@ -131,7 +132,7 @@ export function HeroSection() {
               <div className="p-space-md font-code-mono text-code-mono leading-relaxed bg-surface-container-lowest rounded-lg overflow-x-auto selection:bg-primary/30">
                 <p>
                   <span className="text-tertiary">const</span>{" "}
-                  <span className="text-primary font-semibold">developer</span>{" "}
+                  <span className="text-primary font-semibold">qaAnalyst</span>{" "}
                   {"= {"}
                 </p>
 
@@ -142,7 +143,7 @@ export function HeroSection() {
 
                 <p className="pl-4">
                   <span className="text-on-surface-variant">role</span>:{" "}
-                  <span className="text-secondary">"Full Stack Engineer"</span>,
+                  <span className="text-secondary">"QA Analyst"</span>,
                 </p>
 
                 <p className="pl-4">
@@ -151,33 +152,33 @@ export function HeroSection() {
                 </p>
 
                 <p className="pl-4">
-                  <span className="text-on-surface-variant">coreStack</span>: [
+                  <span className="text-on-surface-variant">toolkit</span>: [
                 </p>
 
                 <p className="pl-8 text-primary-fixed-dim">
-                  "TypeScript", "C# / .NET",
+                  "Playwright", "TypeScript", "SQL Server",
                 </p>
 
                 <p className="pl-8 text-primary-fixed-dim">
-                  "Python", "Node.js", "PostgreSQL"
+                  "Azure DevOps", "Git"
                 </p>
 
                 <p className="pl-4">],</p>
 
                 <p className="pl-4">
-                  <span className="text-on-surface-variant">passions</span>: [
+                  <span className="text-on-surface-variant">focus</span>: [
                 </p>
 
                 <p className="pl-8 text-secondary-fixed">
-                  "Algoritmos de Alta Eficiência",
+                  "Testes Funcionais & Regressão",
                 </p>
 
                 <p className="pl-8 text-secondary-fixed">
-                  "Arquitetura Limpa (Clean Code)",
+                  "Automação E2E com Playwright",
                 </p>
 
                 <p className="pl-8 text-secondary-fixed">
-                  "Modelagem de Dados & Grafos"
+                  "Testes de API & Validação de Dados"
                 </p>
 
                 <p className="pl-4">],</p>
@@ -190,7 +191,7 @@ export function HeroSection() {
                 <p className="pl-4">
                   <span className="text-tertiary">execute</span>: () {"=>"}{" "}
                   <span className="text-primary">
-                    developer.buildHighImpactSoftware()
+                    qaAnalyst.ensureQuality()
                   </span>
                 </p>
 
@@ -200,10 +201,10 @@ export function HeroSection() {
               <div className="mt-space-sm flex items-center justify-between px-space-sm pt-space-xs font-code-mono text-label-caps text-on-surface-variant">
                 <span className="flex items-center gap-1.5 text-primary">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary animate-ping" />
-                  <span>System Status: Optimal (200 OK)</span>
+                  <span>Test Suite: All Passed (✓)</span>
                 </span>
 
-                <span className="text-outline">Node v20.x // Git 2.4+</span>
+                <span className="text-outline">Playwright // Azure DevOps</span>
               </div>
             </div>
           </div>
@@ -236,21 +237,21 @@ export function HeroSection() {
           <div className="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col justify-between hover:scale-[1.01] transition-transform">
             <div className="flex items-center justify-between">
               <span className="font-label-caps text-label-caps text-secondary uppercase font-bold">
-                Arquitetura
+                Automação
               </span>
 
               <span className="material-symbols-outlined text-on-surface-variant text-headline-sm">
-                <Layers className="w-5 h-5" />
+                <MonitorCheck className="w-5 h-5" />
               </span>
             </div>
 
             <div className="mt-space-md">
               <span className="font-stat-lg text-stat-lg text-on-surface font-bold">
-                Full-Stack
+                E2E
               </span>
 
               <p className="font-body-sm text-body-sm text-on-surface-variant mt-1">
-                Do banco de dados relacional ao frontend reativo
+                Fluxos do usuário testados de ponta a ponta com Playwright
               </p>
             </div>
           </div>
@@ -284,17 +285,17 @@ export function HeroSection() {
               </span>
 
               <span className="material-symbols-outlined text-on-surface-variant text-headline-sm">
-                <Verified className="w-5 h-5" />
+                <ShieldCheck className="w-5 h-5" />
               </span>
             </div>
 
             <div className="mt-space-md">
               <span className="font-stat-lg text-stat-lg text-on-surface font-bold">
-                Clean Code
+                Shift-Left
               </span>
 
               <p className="font-body-sm text-body-sm text-on-surface-variant mt-1">
-                Padrões de design, POO e código manutenível
+                Qualidade desde o início do ciclo de desenvolvimento
               </p>
             </div>
           </div>

@@ -1,20 +1,24 @@
-import { Database, Network, Server, Laptop, SquareTerminal } from "lucide-react";
+import {
+  Bug,
+  ClipboardCheck,
+  Compass,
+  Database,
+  FlaskConical,
+  MonitorCheck,
+  RotateCcw,
+  Webhook,
+  Workflow,
+} from "lucide-react";
 import type { ComponentType, CSSProperties } from "react";
 import { DiMongodb, DiMsqlServer } from "react-icons/di";
 import {
-  SiC,
   SiDocker,
-  SiDotnet,
   SiGit,
   SiGithubactions,
   SiJavascript,
   SiMysql,
-  SiNodedotjs,
   SiPostgresql,
   SiPython,
-  SiRabbitmq,
-  SiReact,
-  SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
@@ -44,62 +48,60 @@ type SkillGroup = {
 // Cores das marcas, clareadas quando necessário para ter contraste no fundo escuro.
 const groups: SkillGroup[] = [
   {
-    title: "Backend",
+    title: "Tipos de Teste",
     description:
-      "Arquiteturas resilientes, APIs RESTful, modelagem orientada a objetos e microsserviços.",
-    icon: Server,
+      "Cobertura do fluxo do usuário à API, validando regras de negócio e prevenindo regressões.",
+    icon: ClipboardCheck,
     accent: "text-primary",
     techs: [
-      { name: "C#", icon: TbBrandCSharp, color: "#b77fdc" },
-      { name: ".NET Core", icon: SiDotnet, color: "#8b6cef" },
-      { name: "Node.js", icon: SiNodedotjs, color: "#5fa04e" },
-      { name: "Python", icon: SiPython, color: "#6ba4d9" },
-      { name: "C", icon: SiC, color: "#a8b9cc" },
+      { name: "Funcional", icon: ClipboardCheck, color: "#4edea3" },
+      { name: "Regressão", icon: RotateCcw, color: "#adc6ff" },
+      { name: "End-to-End", icon: MonitorCheck, color: "#4edea3" },
+      { name: "API", icon: Webhook, color: "#adc6ff" },
+      { name: "Exploratório", icon: Compass, color: "#4edea3" },
+      { name: "Integração", icon: Workflow, color: "#adc6ff" },
     ],
   },
   {
-    title: "Frontend",
+    title: "Automação",
     description:
-      "Interfaces fluidas, alta performance, acessibilidade e design systems modulares.",
-    icon: Laptop,
+      "Testes automatizados end-to-end, cenários reutilizáveis e scripts de teste manuteníveis.",
+    icon: FlaskConical,
     accent: "text-secondary",
     techs: [
+      { name: "Playwright", icon: FlaskConical, color: "#45ba4b" },
       { name: "TypeScript", icon: SiTypescript, color: "#4a9ae6" },
       { name: "JavaScript", icon: SiJavascript, color: "#f7df1e" },
-      { name: "React", icon: SiReact, color: "#61dafb" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, color: "#38bdf8" },
+      { name: "C#", icon: TbBrandCSharp, color: "#b77fdc" },
+      { name: "Python", icon: SiPython, color: "#6ba4d9" },
     ],
   },
   {
-    title: "Dados",
+    title: "Dados & Validação",
     description:
-      "Bancos relacionais, modelagem de tabelas, estruturas complexas e grafos.",
+      "Consultas SQL para validar a consistência dos dados e apoiar a preparação de cenários de teste.",
     icon: Database,
     accent: "text-tertiary",
     techs: [
+      { name: "SQL Server", icon: DiMsqlServer, color: "#e8514e" },
       { name: "PostgreSQL", icon: SiPostgresql, color: "#6c8ef0" },
       { name: "MySQL", icon: SiMysql, color: "#5d9bd0" },
-      { name: "Modelagem Relacional", icon: Network, color: "#adc6ff" },
-      { name: "SQL Server", icon: DiMsqlServer, color: "#e8514e" },
       { name: "MongoDB", icon: DiMongodb, color: "#50cf07" },
-      { name: "RabbitMQ", icon: SiRabbitmq, color: "#e8514e" },
-
-
     ],
   },
   {
-    title: "Ambiente & Ops",
+    title: "Gestão & CI/CD",
     description:
-      "Controle de versão rigoroso, ambientes isolados e práticas de entrega contínua.",
-    icon: SquareTerminal,
+      "Gestão de bugs, versionamento e execução de testes em pipelines de entrega contínua.",
+    icon: Bug,
     accent: "text-primary",
     techs: [
+      { name: "Azure DevOps", icon: VscAzureDevops, color: "#3b9bee" },
       { name: "Git", icon: SiGit, color: "#f05032" },
       { name: "GitHub Actions", icon: SiGithubactions, color: "#2088ff" },
       { name: "Docker", icon: SiDocker, color: "#2496ed" },
       { name: "VS Code", icon: VscVscode, color: "#23a8f2" },
-      { name: "Azure DevOps", icon: VscAzureDevops, color: "#3b9bee" },
-      
+
       // Para voltar com Linux & Bash:
       // import { SiLinux, SiGnubash } from "react-icons/si";
       // { name: "Linux", icon: SiLinux, color: "#fcc624" },
@@ -120,12 +122,12 @@ export function SkillsSection() {
         </span>
 
         <span className="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">
-          Tecnologias & Especialidades
+          Ferramentas & Competências
         </span>
       </div>
 
       <h2 className="font-headline-md text-headline-md text-on-surface mb-space-2xl">
-        Stack Tecnológica & Domínio Técnico
+        Qualidade de Software & Testes
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
